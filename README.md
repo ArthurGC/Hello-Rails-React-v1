@@ -47,14 +47,7 @@ rails server
 
 **Run tests**
 
-1. To run all tests in the project
-```ruby
-rspec
-``` 
-If you wanna run a certain test file
-```ruby
-rspec spec/test_file_path
-```
+- Under construction
 
 ## :blue_book: Learning Objectives
 
