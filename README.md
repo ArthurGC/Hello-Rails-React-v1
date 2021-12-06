@@ -2,9 +2,9 @@
 # Hello Rails React - Ruby on Rails
 
 Hello Rails React is an application using Ruby on Rails and react-rails gem.
-## :hammer: Preview
+## 🔴 Preview
 
-- Under construction
+![Screenshot](./app/assets/images/HelloRailsReact.png)
 
 ## :hammer: Built With
 
