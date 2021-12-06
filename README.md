@@ -49,6 +49,7 @@ rails server
 
 - Under construction
 
+
 ## :blue_book: Learning Objectives
 
 - Implement a connection between a Ruby on Rails back-end and React front-end.
