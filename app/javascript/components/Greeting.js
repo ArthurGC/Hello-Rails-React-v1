@@ -1,9 +1,21 @@
-import React from "react"
-import PropTypes from "prop-types"
+import React, { useEffect } from "react"
+import { useDispatch, useSelector } from 'react-redux';
+import { getGreeting } from "../redux/greeting"
 
 const Greeting = () => {
+  const greeting = useSelector((state) => state.greetings.greeting);
+  const dispatch = useDispatch();
+
+  useEffect(() => {
+    dispatch(getGreeting);
+  }, [])
+
   return (
-    <h1>This is a greeting</h1>
+    <div className="main-container">
+      <div className="card card-1">
+        <h2 className="card__title">{greeting}</h2>
+      </div>
+    </div>
   )
 }
 
