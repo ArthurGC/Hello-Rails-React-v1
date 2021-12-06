@@ -47,21 +47,15 @@ rails server
 
 **Run tests**
 
-1. To run all tests in the project
-```ruby
-rspec
-``` 
-If you wanna run a certain test file
-```ruby
-rspec spec/test_file_path
-```
+- Under construction
+
 
 ## :blue_book: Learning Objectives
 
 - Implement a connection between a Ruby on Rails back-end and React front-end.
 - Understand the pros and cons of different approaches of connecting Ruby on Rails back-end with React front-end.
 
-## Authors
+## Author
 
 👤 **ArthurGC**
 
